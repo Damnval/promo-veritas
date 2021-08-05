@@ -25,11 +25,15 @@ composer install
 cp .env.example .env
 ```
 
+## Create DataBase 
+
+Go to your sql and create a DB named 'veritas'
+
 ## Run migration
 
 ```bash
 php artisan migrate --seed
-
+```
 
 ## Run and test Coding Exam
 
