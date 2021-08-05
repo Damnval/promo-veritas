@@ -23,15 +23,21 @@ composer install
 
 ```bash
 cp .env.example .env
-php artisan migrate
-php artisan db:seed
 ```
 
+## Run migration
 
-## Test Coding Exam
+```bash
+php artisan migrate --seed
+
+
+## Run and test Coding Exam
 
 ```bash
 php -S localhost:8000 -t public
 ```
 Go to browser and type http://localhost:8000/
 
+### Coding Style
+
+PSR-2/ SOLID
